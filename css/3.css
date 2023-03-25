@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a39f9f;
+}
+header {
+    background-color: #858585;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+header form {
+    display: inline-block;
+    margin-left: 20px;
+   }
+header input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+   }
+
+header button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*khung tim kiếm */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#video-player {
+    width: 70%;
+    margin-right: 5px;
+    background-color: #858585;
+}
+
+#video-player video {
+    width: 100%;
+}
+
+#video-player h2 {
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#video-player p {
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+#video-list {
+    width: 29.5%;
+    background-color: #969494;
+    padding: 10px;
+}
+
+#video-list h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+#video-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#video-list li {
+    margin-bottom: 10px;
+}
+
+#video-list a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#video-list  img {
+    width: 80px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#video-list .title{
+    padding: 10px;
+}
+
+#video-list h3 {
+    margin: 0;
+}
+ 
